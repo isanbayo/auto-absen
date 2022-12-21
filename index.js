@@ -5,7 +5,7 @@ const readlineSync = require('readline-sync');
     //const userName = readlineSync.question('Username : ');
     const userName = '19312194';
     //const password = readlineSync.question('Password : ', { hideEchoBack: true});
-    const password = 'Asu32121';
+    const password = '';
 
     const options = { waitUntil: 'networkidle2' }
     const browser = await puppeteer.launch({ headless: false});
